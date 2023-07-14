@@ -45,6 +45,7 @@ namespace ConsoleAppExercise1
                     {
                         case 1:
                             {
+                                Console.WriteLine("Enter Index");
                                 int index = int.Parse(Console.ReadLine());
                                 fruits.Insert(index,item);
                                 Console.WriteLine(item + " is added at " + index);
